@@ -1,0 +1,175 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: 'Lato';
+}
+
+#mainnavbar.navbar {
+	background-color: #292c2f; /* color for not being transparent */
+	font-size: 1.2em;
+	color: whitesmoke;
+}
+
+#mainnavbar.navbar a {
+	color: whitesmoke;
+}
+
+#mainnavbar .navbar-brand {
+	font-size: 1.9rem;
+	font-family: 'Pacifico', cursive;
+}
+
+#brandicon {
+	/* height: 25%; */
+	position: absolute;
+	top: 0.9rem;
+	left: 1rem;
+}
+
+#mainnavbar .dropdown-menu,
+#mainnavbar .dropdown-item {
+	background-color: #292c2f;
+}
+
+#mainnavbar .nav-link:hover,
+#mainnavbar .dropdown-item:hover {
+	color: #a72833;
+}
+
+.dropdown_items,
+#mainnavbar .dropdown-menu {
+	text-align: center; /* Dropdown cellphone menu items */
+}
+
+#social {
+	font-size: 1.5rem;
+}
+
+#social.nav-item a[href="https://www.facebook.com/shizune.66"].nav-link:hover {
+	color: #1877f2;
+}
+
+#social.nav-item a[href="https://www.instagram.com/clutch.36/"].nav-link:hover {
+	color: orangered;
+}
+
+/* End of navigation bar */
+
+/* Landing page */
+
+h1 {
+	text-align: center;
+	padding-top: 6.5rem;
+	/* margin-bottom: 2rem; */
+}
+
+@media (min-width: 992px) {
+	#meetme {
+		position: relative;
+		top: 2rem;
+		right: 7rem;
+		border: 1px solid black;
+		border-radius: 10%;
+	}
+
+	hr {
+		width: 50%;
+		border: 1px solid#212529;
+	}
+}
+
+@media (max-width: 991px) {
+	hr {
+		width: 70%;
+		border: 1px solid#212529;
+	}
+}
+
+#meetme {
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 1rem;
+	padding-left: 0rem;
+}
+
+#meetme ul li {
+	list-style-type: none;
+	font-size: 1.4rem;
+}
+
+#meetme ul li:before {
+	content: '✓';
+}
+
+#theTeam {
+	font-size: 1.2rem;
+}
+
+/* Footer */
+#footer-basic-centered {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 1.5rem Lato;
+	padding: 0.5rem;
+	padding-top: 0.7rem;
+	margin-bottom: 0;
+}
+
+#footer-basic-centered .footer-company-motto {
+	color: #8d9093;
+	font-size: 1.4rem;
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
+}
+
+#footer-basic-centered .footer-company-name {
+	color: #8f9296;
+	font-size: 1.3rem;
+	padding-top: 0.2rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#footer-basic-centered .footer-company-name span {
+	font-size: 1.4rem;
+	font-family: 'Pacifico', cursive;
+}
+
+#footer-basic-centered #footer-social {
+	padding-top: 0.2rem;
+	margin-bottom: 0.7rem;
+	font-size: 1.4rem;
+}
+
+#footer-basic-centered #footer-social span {
+	color: #8f9296;
+	padding: 0.2rem;
+	margin: 0.2rem;
+}
+
+#footer-basic-centered #footer-social span#insta:hover {
+	color: orangered;
+}
+
+#footer-basic-centered #footer-social span#fb:hover {
+	color: #1877f2;
+}
+
+#footer-basic-centered #footer-social span#ytube:hover {
+	color: #a72833;
+}
+
+#footer-basic-centered .developed-by,
+.developed-by a {
+	color: #8d9093;
+	font-size: 1rem;
+}
+
+/* End of footer */
